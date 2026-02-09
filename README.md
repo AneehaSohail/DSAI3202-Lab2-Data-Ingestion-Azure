@@ -7,14 +7,14 @@
 
 ---
 
-## 📌 Lab Objective
+##  Lab Objective
 The objective of this lab is to design and implement a **cloud-based data ingestion pipeline** on Microsoft Azure. The lab demonstrates how large-scale raw data can be ingested, processed, and transformed into an optimized format using Azure services.
 
 The pipeline follows a layered data lake architecture and prepares data for downstream analytics.
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 The datasets used in this lab are obtained from the **Stanford SNAP Amazon Reviews Dataset**.
 
 ### 1. Electronics Reviews Dataset
@@ -29,14 +29,14 @@ The datasets used in this lab are obtained from the **Stanford SNAP Amazon Revie
 
 ---
 
-## ☁️ Azure Services Used
+## Azure Services Used
 - **Azure Data Lake Storage Gen2**
 - **Azure Machine Learning**
 - **Azure Data Factory**
 
 ---
 
-## 🏗️ Storage Architecture
+## Storage Architecture
 An Azure Data Lake Storage Gen2 account was created with **hierarchical namespace enabled**.
 
 ### Containers Created
@@ -46,7 +46,7 @@ An Azure Data Lake Storage Gen2 account was created with **hierarchical namespac
 
 ---
 
-## 📥 Data Ingestion Process
+## Data Ingestion Process
 
 ### Step 1: Upload Raw Reviews Data
 - The large reviews dataset was downloaded inside an **Azure ML Compute Instance** using `wget`.
